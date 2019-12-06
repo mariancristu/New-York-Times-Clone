@@ -75,7 +75,7 @@ body {
   z-index: 2000;
 }
 
-.main-section {
+header {
   width: 800px;
   height: 300px;
   margin: 0 auto;
