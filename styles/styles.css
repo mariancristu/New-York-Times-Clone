@@ -1,0 +1,33 @@
+.navigation {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(233, 232, 232);
+  white-space: nowrap;
+}
+
+.left-side {
+  height: 100%;
+  width: 40px;
+  display: inline-block;
+}
+
+.change {
+  height: 100%;
+  width: 30px;
+  display: inline-block;
+}
+
+.navigation i {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 7px;
+  font-size: x-large;
+}
+
+body {
+  margin: 0;
+}
