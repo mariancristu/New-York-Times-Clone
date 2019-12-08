@@ -1,83 +1,95 @@
-/* nav bar */
-.navigation {
-  position: fixed;
-  height: 40px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  white-space: nowrap;
-  border-bottom: 1px solid #e2e2e2;
-}
-
-.left-side {
-  height: 100%;
-  width: 40px;
-  display: inline-block;
-}
-
-
-
-.change {
-  height: 100%;
-  width: 30px;
-  display: inline-block;
-}
-
-.navigation i {
-  width: 100%;
-  text-align: center;
-
-  font-size: 15px;
-}
-
 body {
   margin: 0;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
+/* nav bar */
+.navigation {
+  position: fixed;
+  height: 43px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 #nav-parent {
   position: relative;
   width: 100%;
 }
-
 #nav-left {
   display: inline-block;
-  border: 1px solid black; 
-  width: 200px;
-  height: 100px;
-
   position: absolute;
   left: 0;
-  margin-left: 150px;
+  padding-top: 10px;
 }
-
 #nav-left :nth-child(3) {
   display: inline-block;
 }
-
+.left-side {
+  height: 100%;
+  width: 40px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.change {
+  height: 100%;
+  width: 30px;
+  display: inline-block;
+  margin-right: 12px;
+}
+#nav-left i {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+#nav-left a{
+  font-size: 12.5px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+}
 #nav-middle {
   display: inline-block;
-  /* border: 1px solid black; */
-  width: 200px;
-  height: 100px;
+  width: 195px;
+  height: 25.64px;
 
   position: absolute;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 7px;
   left: 0;
   right: 0;
 }
 #nav-right {
   display: inline-block;
-  /* border: 1px solid black; */
-  width: 200px;
-  height: 100px;
   margin-right: 30px;
   position: absolute;
   right: 0;
-  z-index: 2000;
+  padding-top: 4px;
 }
-
+#nav-right button {
+  background-color: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  height: 32px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-left: 4px;
+  
+}
+/* Header */
 header {
   width: 800px;
   height: 300px;
