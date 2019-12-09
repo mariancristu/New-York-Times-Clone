@@ -136,25 +136,58 @@ header {
 }
 /* main */
 .float-container {
-  
 }
 .float-left {
   float: left;
   width: 70%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding-left: 30%;
 }
 .float-right {
   float: right;
   width: 30%;
   height: 100%;
-  border: 1px solid black;
-
+  /* border: 1px solid black; */
 }
-.float-container::after{
-  content: "."; 
-  visibility: hidden; 
-  display: block; 
-  height: 0; 
+.float-container::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
   clear: both;
+}
+
+.author {
+  padding-left: 30%;
+}
+
+.links-pages :nth-child(1) {
+  float: left;
+  font-size: 12px;
+}
+
+.links-pages :nth-child(2) {
+  position: relative;
+  left: 40%;
+}
+
+.links-pages:after {
+  clear: both;
+}
+
+.author:after {
+  clear: both;
+}
+
+.icon {
+  background: gray;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.icon > svg {
+  position: relative;
+  left: 9px;
+  top: 5px;
 }
