@@ -135,14 +135,20 @@ header {
   color: gray;
 }
 /* main */
-.float-container {
-}
+/* .float-container {
+
+} */
 .float-left {
   float: left;
   width: 70%;
   /* border: 1px solid black; */
-  padding-left: 30%;
+  padding-left: 22%;
 }
+
+.float-left p {
+  font-size: 1rem;
+}
+
 .float-right {
   float: right;
   width: 30%;
@@ -158,39 +164,74 @@ header {
 }
 
 .author {
-  padding-left: 30%;
+  padding-left: 22%;
+  height: 70px;
 }
 
-.links-pages :nth-child(1) {
+.right-side-icons {
+  height: 50px;
+  display: inline-block;
+  height: 27px;
+  left: 20%;
+  position: relative;
+  top: -5px;
+}
+
+.right-side-icons > * {
+  display: inline-block;
+  position: relative;
+  margin-right: 6px;
+}
+
+.links-pages {
+  height: 50px;
+}
+
+.date {
   float: left;
   font-size: 12px;
 }
 
-.links-pages :nth-child(2) {
-  position: relative;
-  left: 40%;
-}
-
-.links-pages:after {
-  clear: both;
-}
-
-.author:after {
-  clear: both;
-}
-
 .icon {
-  background: gray;
+  background: #dddcdc;
   width: 25px;
   height: 25px;
   border-radius: 50%;
 }
 
-.icon > svg {
-  position: relative;
+.back {
+  background: transparent;
+}
+
+.facebook-icon {
+  position: absolute;
   left: 9px;
   top: 5px;
 }
+
+.twiter-icon {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+
+.email-icon {
+  position: absolute;
+  left: 5px;
+  top: 8px;
+}
+
+.share-icon {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+}
+
+.article-icon {
+  position: absolute;
+  left: 4px;
+}
+
 /* iframe */
 #inflation {
   position: relative;
@@ -205,13 +246,12 @@ header {
 .first-para-container {
   position: absolute;
   top: 32%;
-
 }
 .first-para-container div {
   float: left;
   width: 25%;
   padding-right: 5%;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
 }
 .second-para-container {
@@ -223,32 +263,31 @@ header {
   float: left;
   width: 25%;
   padding-right: 3%;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
 }
 hr {
-
   width: 8%;
   border-color: black;
-  border-width: .5px;
+  border-width: 0.5px;
   float: left;
 }
 
 .inflation-author {
-  clear: both;  
+  clear: both;
   margin-top: 25px;
   color: #333;
 }
 
 #inflation span {
   font-weight: bold;
-  margin-right: .8em;
+  margin-right: 0.8em;
 }
 .inflation-font-style {
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
 }
 
-#inflation > p{
+#inflation > p {
   color: #666;
   font-size: 18px;
 }
