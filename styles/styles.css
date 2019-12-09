@@ -22,6 +22,7 @@ a {
   border-bottom: 1px solid #e2e2e2;
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 999;
 }
 #nav-parent {
   position: relative;
@@ -172,7 +173,7 @@ header {
   height: 50px;
   display: inline-block;
   height: 27px;
-  left: 20%;
+  left: 30%;
   position: relative;
   top: -5px;
 }
@@ -217,19 +218,21 @@ header {
 
 .email-icon {
   position: absolute;
-  left: 5px;
-  top: 8px;
+  left: 4px;
+  top: 7px;
+  right: 3px;
 }
 
 .share-icon {
   position: absolute;
-  left: 6px;
+  left: 4px;
   top: 5px;
+  right: 3px;
 }
 
 .article-icon {
   position: absolute;
-  left: 4px;
+  left: 7px;
 }
 
 /* iframe */
@@ -291,3 +294,40 @@ hr {
   color: #666;
   font-size: 18px;
 }
+
+/* asside part */
+.signup-science {
+  width: 200px;
+  height: 200px;
+  margin: 65% auto;
+}
+
+.signup-science span {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.signup-science h4 {
+  margin-bottom: 5px;
+}
+
+.signup-science button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  font-family: "Libre Franklin", helvetica, arial, sans-serif;
+  color: white;
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.editors-picks {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+/* end asside part */
