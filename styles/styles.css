@@ -205,10 +205,14 @@ header {
 .first-para-container {
   position: absolute;
   top: 32%;
+
 }
 .first-para-container div {
   float: left;
   width: 25%;
+  padding-right: 5%;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
 }
 .second-para-container {
   position: absolute;
@@ -218,4 +222,33 @@ header {
 .second-para-container div {
   float: left;
   width: 25%;
+  padding-right: 3%;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+}
+hr {
+
+  width: 8%;
+  border-color: black;
+  border-width: .5px;
+  float: left;
+}
+
+.inflation-author {
+  clear: both;  
+  margin-top: 25px;
+  color: #333;
+}
+
+#inflation span {
+  font-weight: bold;
+  margin-right: .8em;
+}
+.inflation-font-style {
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+}
+
+#inflation > p{
+  color: #666;
+  font-size: 18px;
 }
