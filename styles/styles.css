@@ -191,3 +191,31 @@ header {
   left: 9px;
   top: 5px;
 }
+/* iframe */
+#inflation {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#inflation img {
+  width: 100%;
+}
+
+.first-para-container {
+  position: absolute;
+  top: 32%;
+}
+.first-para-container div {
+  float: left;
+  width: 25%;
+}
+.second-para-container {
+  position: absolute;
+  top: 74%;
+}
+
+.second-para-container div {
+  float: left;
+  width: 25%;
+}
