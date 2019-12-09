@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 h1 {
   margin: 0;
 }
@@ -130,4 +133,28 @@ header {
 .small-text {
   font-size: small;
   color: gray;
+}
+/* main */
+.float-container {
+  
+}
+.float-left {
+  float: left;
+  width: 70%;
+  border: 1px solid black;
+  padding-left: 30%;
+}
+.float-right {
+  float: right;
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+
+}
+.float-container::after{
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
 }
