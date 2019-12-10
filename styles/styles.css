@@ -413,6 +413,25 @@ hr {
   color: #8a8888;
 }
 
+/* article info */
+.article-info {
+  padding-left: 22%;
+  width: 70%;
+}
+
+.article-info > p {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.article-info > p a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+  margin-right: 4px;
+}
+
 /* articles section */
 #articles::after {
   content: ".";
