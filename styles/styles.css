@@ -421,3 +421,37 @@ hr {
   height: 0;
   clear: both;
 }
+
+#articles {
+  width: 1200px;
+  margin-left: 20%;
+}
+
+.left {
+  float: left;
+  width: 80%;
+}
+
+.right {
+  float: right;
+  width: 20%;
+}
+
+.article-item {
+  width: calc(33.33% - 40px);
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 25px;
+}
+
+.article-item img {
+  width: 100%;
+}
+
+.article-item figure {
+  margin: 0;
+}
+
+.section-2 {
+  position: relative;
+}
