@@ -209,6 +209,11 @@ header {
   background: transparent;
 }
 
+.right-side-icons li {
+  display: inline;
+  padding-right: 5px;
+}
+
 .facebook-icon {
   position: absolute;
   left: 9px;
@@ -445,8 +450,6 @@ hr {
   margin-right: 5px;
 }
 
-
-
 .article-info > p {
   color: rgb(102, 102, 102);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -468,8 +471,6 @@ hr {
   border-radius: 100%;
   box-sizing: unset;
 }
-
-
 
 /* articles section */
 #articles::after {
