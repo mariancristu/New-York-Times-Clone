@@ -516,3 +516,38 @@ hr {
   position: relative;
 }
 /* Footer section */
+
+.bottom-bar {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background: white;
+  z-index: 999;
+  bottom: 0;
+  border-top: 1px solid black;
+}
+
+.bottom-bar-right {
+  position: absolute;
+  top: 17px;
+  right: 60px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bottom-bar-right img {
+  width: 15px;
+  height: 15px;
+  transform: rotate(-90deg);
+  margin-left: 15px;
+}
+
+.bottom-bar-center {
+  width: 600px;
+  height: auto;
+  margin: 17px auto;
+}
+
+.bottom-bar-center a:nth-child(1) {
+  margin-top: 10px;
+}
