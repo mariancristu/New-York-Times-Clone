@@ -147,7 +147,7 @@ header {
 .float-left {
   float: left;
   width: 70%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding-left: 22%;
 }
 
@@ -159,7 +159,7 @@ header {
   float: right;
   width: 30%;
   height: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .float-container::after {
   content: ".";
@@ -423,8 +423,8 @@ hr {
 }
 
 #articles {
-  width: 1200px;
-  margin-left: 20%;
+  width: 1250px;
+  margin: 0 auto;
 }
 
 .left {
@@ -442,6 +442,38 @@ hr {
   display: inline-block;
   vertical-align: top;
   margin-right: 25px;
+  margin-bottom: 15px;
+}
+
+.border {
+  width: 94%;
+  height: 1px;
+  border-bottom: 1px solid black;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+
+.section-1 h4 {
+  font-size: 14px;
+}
+
+.right h4 {
+  font-size: 14px;
+}
+
+.right li {
+  margin: 10px 0 10px 0;
+  font-family: "Libre Franklin";
+  font-weight: 400;
+}
+
+.border-color {
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.article-item time {
+  font-size: 10px;
+  margin: 0;
 }
 
 .article-item img {
@@ -450,6 +482,15 @@ hr {
 
 .article-item figure {
   margin: 0;
+  font-size: 11px;
+}
+
+.article-item figcaption {
+  text-align: right;
+}
+
+.article-item h5 {
+  margin: 0 0 5px 0;
 }
 
 .section-2 {
