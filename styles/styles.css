@@ -591,3 +591,76 @@ hr {
 .bottom-bar-center a:nth-child(1) {
   margin-top: 10px;
 }
+
+.footer-title {
+  float: left;
+}
+
+.footer-title + span {
+  float: right;
+}
+
+.footer-title svg {
+  width: 200px;
+}
+
+.footer-main-section {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.footer-main-title::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.footer-main-title {
+  border-top: 3px double rgb(197, 196, 196);
+  padding-top: 10px;
+}
+
+.footer-container-items::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+
+  margin-bottom: 40px;
+}
+
+.footer-item {
+  width: 15%;
+  float: left;
+  font-size: smaller;
+}
+
+.footer-item li {
+  margin-bottom: 10px;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.footer-container-items > :nth-child(6) {
+  border-left: 1px solid rgb(185, 185, 185);
+  padding-left: 10px;
+}
+
+.subscribe-links svg {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+}
+
+.subscribe-links {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Libre Franklin", helvetica, arial, sans-serif;
+}
