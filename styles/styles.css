@@ -144,25 +144,22 @@ header {
   color: gray;
 }
 /* main */
-/* .float-container {
-
-} */
 .float-left {
   float: left;
   width: 70%;
-  /* border: 1px solid black; */
-  padding-left: 22%;
+  border: 1px solid black;
+  padding-left: 25%;
 }
 
 .float-left p {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .float-right {
   float: right;
   width: 30%;
   height: 100%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 .float-container::after {
   content: ".";
