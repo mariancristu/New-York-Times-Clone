@@ -412,3 +412,12 @@ hr {
   font-weight: lighter;
   color: #8a8888;
 }
+
+/* articles section */
+#articles::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
