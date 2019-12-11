@@ -22,17 +22,17 @@ Project: Positioning and Floating Elements.
 
 ## Authors
 
-👤 **Ivan Ulises Guzmán Sanchez**
+👤 **Ivan Ulises Guzman Sanchez**
 
-- Github: [@githubhandle](https://github.com/fivan18)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@fivan18](https://github.com/fivan18)
+- Twitter: [@fivanunam](https://twitter.com/fivanunam)
+- Linkedin: [fivan](www.linkedin.com/in/fivan)
 
 👤 **Cristu Marian**
 
-- Github: [@githubhandle](https://github.com/mariancristu)
-- Twitter: [@twitterhandle](https://twitter.com/marian_cristu)
-- Linkedin: [linkedin](https://www.linkedin.com/in/marian-cristu-b687b3197)
+- Github: [@mariancristu](https://github.com/mariancristu)
+- Twitter: [@marian_cristu](https://twitter.com/marian_cristu)
+- Linkedin: [marian-cristu](https://www.linkedin.com/in/marian-cristu-b687b3197)
 
 ## 🤝 Contributing
 
