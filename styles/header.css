@@ -1,0 +1,42 @@
+/* Header */
+header {
+  width: 800px;
+
+  /* height: 300px; */
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 100px;
+  text-align: center;
+}
+
+#headline {
+  text-align: start;
+  width: 65%;
+  margin: 0 auto;
+}
+
+#headline :nth-child(2) {
+  margin-top: 10px;
+}
+
+#headline > h1 {
+  font-size: 30px;
+  font-family: "Domine", serif;
+  font-style: italic;
+}
+
+.image-pic > img {
+  width: 100%;
+}
+
+.image-pic figcaption > span {
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+  color: rgb(85, 85, 85);
+}
+
+.small-text {
+  font-size: small;
+  color: gray;
+}
