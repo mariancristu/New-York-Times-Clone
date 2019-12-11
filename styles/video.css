@@ -1,0 +1,21 @@
+/* video */
+.youtube-video {
+  margin-left: 22%;
+  width: 575px;
+  height: 324px;
+  border: none;
+}
+
+#standford {
+  margin-left: 22%;
+  display: block;
+  width: 48%;
+  font-size: 14px;
+  color: gray;
+}
+
+#standford > span {
+  font-size: smaller;
+}
+
+/* end video */

@@ -1,0 +1,58 @@
+/* article info */
+.article-info::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.article-info {
+  padding-left: 22%;
+  width: 70%;
+  margin-bottom: 60px;
+}
+
+.article-info-left {
+  float: left;
+}
+
+.article-info-left > button {
+  background-color: rgb(50, 104, 145);
+  color: white;
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 5px;
+  height: 35px;
+  width: 380px;
+}
+
+.article-info-right {
+  float: right;
+}
+
+.article-info-right > ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.article-info > p {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.article-info > p a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+  margin-right: 4px;
+}
+
+.css-4brsb6 {
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 100%;
+  box-sizing: unset;
+}

@@ -1,0 +1,77 @@
+/* asside part */
+.signup-science {
+  width: 200px;
+  height: 200px;
+  margin: 65% auto;
+}
+
+.signup-science span {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.signup-science h4 {
+  margin-bottom: 5px;
+}
+
+.signup-science button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  font-family: "Libre Franklin", helvetica, arial, sans-serif;
+  color: white;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.editors-picks {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.editors-picks h4 {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 12px;
+}
+
+.editors-picks li {
+  width: 100%;
+  clear: both;
+  height: 8em;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.editors-picks li > img {
+  width: 50%;
+  float: left;
+  height: 100%;
+  margin-right: 8px;
+}
+
+.editors-picks li > div {
+  height: 100%;
+}
+
+.paid-post-font {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(240, 236, 236);
+  padding: 12px;
+  font-size: 13px;
+}
+
+.paid-post-bold {
+  font-weight: bold;
+}
+
+#paid-post-img {
+  height: 85%;
+  width: 45%;
+  padding: 12px;
+}
+
+/* end asside part */

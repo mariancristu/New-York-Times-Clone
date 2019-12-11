@@ -1,0 +1,13 @@
+
+.image-midle {
+  margin-left: 20%;
+  width: 576px;
+}
+
+.image-midle + figcaption {
+  width: 558px;
+  margin-left: 20%;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #8a8888;
+}

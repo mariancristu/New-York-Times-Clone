@@ -1,0 +1,108 @@
+/* main */
+.float-left {
+  float: left;
+  width: 70%;
+
+  /* border: 1px solid black; */
+  padding-left: 22%;
+}
+
+.float-left p {
+  font-size: 1.5rem;
+}
+
+.float-right {
+  float: right;
+  width: 30%;
+  height: 100%;
+
+  /* border: 1px solid black; */
+}
+
+.float-container::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.author {
+  padding-left: 22%;
+  height: 70px;
+}
+
+.right-side-icons {
+  height: 50px;
+  display: inline-block;
+  left: 30%;
+  position: relative;
+  top: -5px;
+}
+
+.right-side-icons > * {
+  display: inline-block;
+  position: relative;
+  margin-right: 6px;
+}
+
+.links-pages {
+  height: 50px;
+}
+
+.date {
+  float: left;
+  font-size: 12px;
+}
+
+.icon {
+  background: #dddcdc;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.back {
+  background: transparent;
+}
+
+.right-side-icons li {
+  display: inline;
+  padding-right: 5px;
+}
+
+.facebook-icon {
+  position: absolute;
+  left: 9px;
+  top: 5px;
+}
+
+.twiter-icon {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+
+.email-icon {
+  position: absolute;
+  left: 4px;
+  top: 7px;
+  right: 3px;
+}
+
+.share-icon {
+  position: absolute;
+  left: 4px;
+  top: 5px;
+  right: 3px;
+}
+
+.article-icon {
+  position: absolute;
+  left: 7px;
+}
+
+.main-section {
+  width: 1200px;
+  margin: 0 auto;
+}
