@@ -622,14 +622,17 @@ hr {
   padding-top: 10px;
 }
 
+.footer-container-items{
+  border-bottom: 1px solid rgb(185, 185, 185);
+  margin-bottom: 15px;
+}
+
 .footer-container-items::after {
   content: ".";
   visibility: hidden;
   display: block;
   height: 0;
   clear: both;
-
-  margin-bottom: 40px;
 }
 
 .footer-item {
@@ -671,3 +674,35 @@ hr {
   margin-bottom: 20px;
   box-sizing: unset;
 }
+#space-to-fill{
+  box-sizing: unset;
+  margin-top: 20px;
+}
+.last-footer{
+  width: 1150px;
+  margin: 0 auto;
+}
+.last-footer > ul::after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+
+  margin-bottom: 90px;
+  
+}
+.last-footer > ul li{
+  float: left;
+  margin: 0 10px;
+}
+.last-footer > ul a{
+  color:rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+.last-footer > ul a:hover{
+  text-decoration: underline;
+}
+
+
