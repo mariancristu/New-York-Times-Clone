@@ -1,0 +1,63 @@
+/* iframe */
+#inflation {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#inflation img {
+  width: 100%;
+}
+
+.first-para-container {
+  position: absolute;
+  top: 32%;
+}
+
+.first-para-container div {
+  float: left;
+  width: 25%;
+  padding-right: 5%;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.second-para-container {
+  position: absolute;
+  top: 74%;
+}
+
+.second-para-container div {
+  float: left;
+  width: 25%;
+  padding-right: 3%;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+}
+
+hr {
+  width: 8%;
+  border-color: black;
+  border-width: 0.5px;
+  float: left;
+}
+
+.inflation-author {
+  clear: both;
+  margin-top: 25px;
+  color: #333;
+}
+
+#inflation span {
+  font-weight: bold;
+  margin-right: 0.8em;
+}
+
+.inflation-font-style {
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+}
+
+#inflation > p {
+  color: #666;
+  font-size: 18px;
+}
