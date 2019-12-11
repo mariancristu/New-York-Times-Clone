@@ -14,7 +14,7 @@ Project: Positioning and Floating Elements.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/mariancristu/New-York-Times-Clone/feature-navbar/index.html)
+[Live Demo Link](https://mariancristu.github.io/New-York-Times-Clone/)
 
 ## Getting Started
 
